@@ -19,7 +19,7 @@ If you find this project helpful, consider supporting it:
 ### 📱 Pay via UPI
 
 <a href="upi://pay?pa=9646367199@cnrb&pn=Support%20TailwindCSS-HTML-UI&cu=INR">
-  <img src="https://bhimadev.s3.ap-south-1.amazonaws.com/upi-qr.png" 
+  <img src="https://bhimadev.s3.ap-south-1.amazonaws.com/upi-qr.png?v=2" 
        alt="UPI QR" width="369" />
 </a>
 
