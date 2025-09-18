@@ -4,4 +4,4 @@
 
 ### 🧭 UI
 
-![Preview](./1/preview.png)
+[![Preview](./1/preview.png)](./1/)
