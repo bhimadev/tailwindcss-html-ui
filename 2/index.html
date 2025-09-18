@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Page</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="">
+    <div class="flex h-screen gap-[48px] p-[16px] mb-[28px] md:mb-[28px]">
+      <div
+        class="hidden md:block bg-[#5925DC] h-screen w-[600px] rounded-[10px] flex flex-col py-[48px] px-[85px] box-border justify-between"
+      >
+        <img src="./images/logo.svg" alt="Logo" class="w-[113px] h-[37px]" />
+        <div class="flex flex-col gap-[24px]">
+          <div class="text-[48px] font-semibold text-[#FCFCFC] leading-[58px]">
+            Connecting Talent to Opportunities
+          </div>
+          <div class="text-[18px] text-[#E2E1E8] leading-[27px]">
+            Discover endless opportunities on FreelanceConnect, where talented
+            freelancers and businesses unite. Jump right in with us!
+          </div>
+        </div>
+        <div>
+          <div
+            class="bg-[#4A1FB8] flex flex-col rounded-[16px] p-[24px] gap-[22px]"
+          >
+            <div class="text-[#F0F0F3] leading-[24px] text-[16px] font-medium">
+              As a freelancer, finding the right gigs can be challenging, but
+              FreelanceHub made it simple. I love the personalized job
+              recommendations and the ability to showcase my portfolio
+            </div>
+            <div class="flex gap-[10px]">
+              <img
+                src="./images/profile.svg"
+                alt="Avatar"
+                class="w-[52px] h-[49px] rounded-[8px]"
+              />
+              <div class="flex flex-col">
+                <div class="text-[#F6F6F8] text-[14px] font-medium">
+                  Daphne Park
+                </div>
+                <div class="text-[#F0F0F3] text-[10px]">UI/UX Designer</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex-1 py-[48px] gap-[40px] md:gap-[44px] flex flex-col">
+        <div class="flex flex-col gap-[20px]">
+          <div
+            class="text-[24px] md:text-[32px] leading-[32px] md:leading-[41px] font-semibold text-[#100F14]"
+          >
+            Create your account with us below
+          </div>
+          <div class="text-[16px] leading-[25px] text-[#49475A]">
+            Already have an account?
+            <span class="text-[#5925DC] font-semibold tracking-[0.5%]"
+              >Login</span
+            >
+          </div>
+        </div>
+        <div class="flex flex-col gap-[32px]">
+          <div class="flex flex-col gap-[16px] md:gap-[20px]">
+            <div
+              class="text-[16px] md:text-[18px] leading-[26px] text-[#49475A]"
+            >
+              You’re creating an account as?
+            </div>
+            <div class="flex flex-col md:flex-row gap-[20px] md:gap-[32px]">
+              <div
+                class="flex items-center border border-1 border-[#5925DC] text-[#5925DC] grow bg-[#F4F3FF] gap-[8px] px-[25px] py-[15px] md:py-[20px] rounded-[8px] cursor-pointer"
+              >
+                <div>
+                  <svg
+                    width="18"
+                    height="19"
+                    viewBox="0 0 18 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="9"
+                      cy="9.5"
+                      r="8.25"
+                      stroke="#5925DC"
+                      stroke-width="1.5"
+                    />
+                    <circle cx="9" cy="9.5" r="4.5" fill="#5925DC" />
+                  </svg>
+                </div>
+                <div>As a Designer</div>
+              </div>
+              <div
+                class="flex items-center border border-1 border-[#CBCAD7] grow gap-[8px] px-[25px] py-[15px] md:py-[20px] rounded-[8px] cursor-pointer"
+              >
+                <div>
+                  <svg
+                    width="18"
+                    height="19"
+                    viewBox="0 0 18 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="9"
+                      cy="9.5"
+                      r="8.25"
+                      stroke="#CBCAD7"
+                      stroke-width="1.5"
+                    />
+                  </svg>
+                </div>
+                <div>As a Developer</div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col gap-[24px] md:gap-[28px]">
+            <div class="flex flex-col gap-[8px]">
+              <label
+                for="fullName"
+                class="text-[#9794AA] text-[16px] leading-[25px]"
+                >Full Name</label
+              >
+              <input
+                id="fullName"
+                type="text"
+                name="fullName"
+                placeholder="Enter your full name"
+                aria-required="true"
+                aria-invalid="true"
+                aria-describedby="fullNameHelp"
+                class="text-[#49475A] border border-red-500 rounded-[6px] px-[16px] py-[16px] placeholder-[#686677] focus-visible:outline-none focus:border-[#5925DC] aria-invalid:border-red-500"
+              />
+              <p id="fullNameHelp" class="text-sm text-red-500">
+                Please enter your full name.
+              </p>
+            </div>
+            <div class="flex flex-col gap-[8px]">
+              <label
+                for="email"
+                class="text-[#9794AA] text-[16px] leading-[25px]"
+                >Email Address</label
+              >
+              <input
+                id="email"
+                class="text-[#49475A] border border-1 border-[#CBCAD7] rounded-[6px] px-[16px] py-[16px] placeholder-[#686677] focus-visible:outline-none focus:border-[#5925DC]"
+                type="email"
+                name="email"
+                placeholder="Enter your email address"
+                required
+                aria-required="true"
+                aria-invalid="false"
+              />
+            </div>
+            <div class="flex flex-col gap-[8px]">
+              <label
+                for="password"
+                class="text-[#9794AA] text-[16px] leading-[25px]"
+                >Password</label
+              >
+              <input
+                id="password"
+                class="text-[#49475A] border border-1 border-[#CBCAD7] rounded-[6px] px-[16px] py-[16px] placeholder-[#686677] focus-visible:outline-none focus:border-[#5925DC]"
+                type="password"
+                name="password"
+                placeholder="Create your password"
+                required
+                aria-required="true"
+                aria-invalid="false"
+              />
+            </div>
+            <div>
+              <button
+                class="bg-[#5925DC] rounded-[6px] px-[20px] py-[17px] text-white font-medium leading-[25px] width-auto"
+              >
+                Create Account
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
