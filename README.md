@@ -20,7 +20,7 @@ If you find this project helpful, consider supporting it:
 
 <a href="upi://pay?pa=9646367199@cnrb&pn=Support%20TailwindCSS-HTML-UI&cu=INR">
   <img src="https://bhimadev.s3.ap-south-1.amazonaws.com/upi-qr.png" 
-       alt="UPI QR" width="220" />
+       alt="UPI QR" width="369" />
 </a>
 
 👉 Scan the QR code above
