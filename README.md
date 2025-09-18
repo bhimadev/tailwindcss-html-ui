@@ -9,3 +9,17 @@
 ### 🎨 UI – Directory 2
 
 [![Preview 2](./2/images/screenshot.png)](./2/)
+
+---
+
+## 💖 Support This Project
+
+If you find this project helpful, consider supporting it:
+
+### 📱 Pay via UPI
+
+- **UPI ID:** `9646367199@cnrb`
+
+[![UPI QR](./assets/upi-qr.png)](upi://pay?pa=9646367199@cnrb&pn=Support%20TailwindCSS-HTML-UI&cu=INR)
+
+👉 Scan the QR code above **or** [click here to pay](upi://pay?pa=9646367199@cnrb&pn=Support%20TailwindCSS-HTML-UI&cu=INR).
