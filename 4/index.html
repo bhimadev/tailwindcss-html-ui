@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pricing 1</title>
+
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {},
+          container: {
+            center: true,
+            padding: "1rem",
+            screens: {
+              sm: "540px",
+              md: "720px",
+              lg: "960px",
+              xl: "1140px",
+              "2xl": "1320px",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-[#E4E6F1]">
+    <div class="container">
+      <div class="flex flex-col items-center gap-[40px] py-[40px]">
+        <!-- Heading   -->
+        <div class="flex flex-col gap-[20px]">
+          <div class="text-[40px] font-heavy text-[#231D4F]">
+            Simple, transparent pricing
+          </div>
+          <div class="text-[20px] font-medium text-[#848199] text-center">
+            No contracts. No surprise fees.
+          </div>
+        </div>
+        <!-- Tab   -->
+        <div class="flex w-[300px] rounded-[22px] bg-white">
+          <div
+            class="flex-1 py-[15px] rounded-[22px] text-center bg-[#5243C2] text-[#F496D1] drop-shadow-[#5243C2]/50"
+          >
+            MONTHLY
+          </div>
+          <div
+            class="flex-1 py-[15px] rounded-[22px] text-center text-[#848199]"
+          >
+            YEARLY
+          </div>
+        </div>
+        <!-- pricing cards-->
+        <div
+          class="flex w-full rounded-[26px] mt-[60px] bg-white p-[40px] justify-between"
+        >
+          <!-- card 1  -->
+          <div class="flex flex-col gap-[20px] w-[232px]">
+            <!-- price  -->
+            <div class="flex items-center gap-[6px]">
+              <div class="text-[36px] font-bold text-[#231D4F]">$20</div>
+              <div class="text-[#848199] text-[17px] font-medium">/month</div>
+            </div>
+            <!-- intro  -->
+            <div class="flex flex-col gap-[10px]">
+              <div class="text-[#231D4F] text-[28px] font-bold">Intro</div>
+              <div class="text-[#848199] text-[15px] font-medium">
+                For most businesses that want to otpimize web queries
+              </div>
+            </div>
+            <!-- features  -->
+            <div class="flex flex-col gap-[10px]">
+              <!-- feature 1 -->
+              <div class="flex gap-[10px] items-center">
+                <div>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20C15.5228 20 20 15.5228 20 10C19.9936 4.47982 15.5202 0.00642897 10 0Z"
+                      fill="#5243C2"
+                      fill-opacity="0.103693"
+                    />
+                    <path
+                      d="M15.7725 6.83331L10.0683 14.5741C9.93231 14.7546 9.72945 14.8729 9.50536 14.9024C9.28127 14.9318 9.05475 14.87 8.87668 14.7308L4.80334 11.4741C4.4439 11.1865 4.3857 10.6619 4.67334 10.3025C4.96099 9.94303 5.48557 9.88483 5.84501 10.1725L9.24168 12.89L14.4308 5.84748C14.601 5.59214 14.8977 5.45096 15.2032 5.48001C15.5087 5.50906 15.7734 5.70362 15.8924 5.98646C16.0114 6.26929 15.9653 6.59463 15.7725 6.83331Z"
+                      fill="#5243C2"
+                    />
+                  </svg>
+                </div>
+                <div class="text-[#848199] text-[15px] font-medium">
+                  All limited links
+                </div>
+              </div>
+              <!-- feature 2 -->
+              <div class="flex gap-[10px] items-center">
+                <div>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20C15.5228 20 20 15.5228 20 10C19.9936 4.47982 15.5202 0.00642897 10 0Z"
+                      fill="#5243C2"
+                      fill-opacity="0.103693"
+                    />
+                    <path
+                      d="M15.7725 6.83331L10.0683 14.5741C9.93231 14.7546 9.72945 14.8729 9.50536 14.9024C9.28127 14.9318 9.05475 14.87 8.87668 14.7308L4.80334 11.4741C4.4439 11.1865 4.3857 10.6619 4.67334 10.3025C4.96099 9.94303 5.48557 9.88483 5.84501 10.1725L9.24168 12.89L14.4308 5.84748C14.601 5.59214 14.8977 5.45096 15.2032 5.48001C15.5087 5.50906 15.7734 5.70362 15.8924 5.98646C16.0114 6.26929 15.9653 6.59463 15.7725 6.83331Z"
+                      fill="#5243C2"
+                    />
+                  </svg>
+                </div>
+                <div class="text-[#848199] text-[15px] font-medium">
+                  Own analytics platform
+                </div>
+              </div>
+              <!-- feature 3 -->
+              <div class="flex gap-[10px] items-center">
+                <div>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20C15.5228 20 20 15.5228 20 10C19.9936 4.47982 15.5202 0.00642897 10 0Z"
+                      fill="#5243C2"
+                      fill-opacity="0.103693"
+                    />
+                    <path
+                      d="M15.7725 6.83331L10.0683 14.5741C9.93231 14.7546 9.72945 14.8729 9.50536 14.9024C9.28127 14.9318 9.05475 14.87 8.87668 14.7308L4.80334 11.4741C4.4439 11.1865 4.3857 10.6619 4.67334 10.3025C4.96099 9.94303 5.48557 9.88483 5.84501 10.1725L9.24168 12.89L14.4308 5.84748C14.601 5.59214 14.8977 5.45096 15.2032 5.48001C15.5087 5.50906 15.7734 5.70362 15.8924 5.98646C16.0114 6.26929 15.9653 6.59463 15.7725 6.83331Z"
+                      fill="#5243C2"
+                    />
+                  </svg>
+                </div>
+                <div class="text-[#848199] text-[15px] font-medium">
+                  Chat support
+                </div>
+              </div>
+              <!-- feature 4 -->
+              <div class="flex gap-[10px] items-center">
+                <div>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20C15.5228 20 20 15.5228 20 10C19.9936 4.47982 15.5202 0.00642897 10 0Z"
+                      fill="#5243C2"
+                      fill-opacity="0.103693"
+                    />
+                    <path
+                      d="M15.7725 6.83331L10.0683 14.5741C9.93231 14.7546 9.72945 14.8729 9.50536 14.9024C9.28127 14.9318 9.05475 14.87 8.87668 14.7308L4.80334 11.4741C4.4439 11.1865 4.3857 10.6619 4.67334 10.3025C4.96099 9.94303 5.48557 9.88483 5.84501 10.1725L9.24168 12.89L14.4308 5.84748C14.601 5.59214 14.8977 5.45096 15.2032 5.48001C15.5087 5.50906 15.7734 5.70362 15.8924 5.98646C16.0114 6.26929 15.9653 6.59463 15.7725 6.83331Z"
+                      fill="#5243C2"
+                    />
+                  </svg>
+                </div>
+                <div class="text-[#848199] text-[15px] font-medium">
+                  Optimize hashtags
+                </div>
+              </div>
+              <!-- feature 4 -->
+              <div class="flex gap-[10px] items-center">
+                <div>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20C15.5228 20 20 15.5228 20 10C19.9936 4.47982 15.5202 0.00642897 10 0Z"
+                      fill="#5243C2"
+                      fill-opacity="0.103693"
+                    />
+                    <path
+                      d="M15.7725 6.83331L10.0683 14.5741C9.93231 14.7546 9.72945 14.8729 9.50536 14.9024C9.28127 14.9318 9.05475 14.87 8.87668 14.7308L4.80334 11.4741C4.4439 11.1865 4.3857 10.6619 4.67334 10.3025C4.96099 9.94303 5.48557 9.88483 5.84501 10.1725L9.24168 12.89L14.4308 5.84748C14.601 5.59214 14.8977 5.45096 15.2032 5.48001C15.5087 5.50906 15.7734 5.70362 15.8924 5.98646C16.0114 6.26929 15.9653 6.59463 15.7725 6.83331Z"
+                      fill="#5243C2"
+                    />
+                  </svg>
+                </div>
+                <div class="text-[#848199] text-[15px] font-medium">
+                  Unlimited users
+                </div>
+              </div>
+            </div>
+            <!-- button -->
+            <button
+              class="text-[#F496D1] bg-[#FDF0FA] font-bold text-[15px] rounded-[24px] py-[13px] w-full"
+            >
+              Choose plan
+            </button>
+          </div>
+          <!-- card 2  -->
+          <div class="flex flex-col gap-[20px] w-[232px]">
+            <!-- price  -->
+            <div class="flex items-center gap-[6px]">
+              <div class="text-[36px] font-bold text-[#231D4F]">$50</div>
+              <div class="text-[#848199] text-[17px] font-medium">/month</div>
+            </div>
+            <!-- intro  -->
+            <div class="flex flex-col gap-[10px]">
+              <div class="text-[#231D4F] text-[28px] font-bold">Base</div>
+              <div class="text-[#848199] text-[15px] font-medium">
+                For most businesses that want to otpimize web queries
+              </div>
+            </div>
+            <!-- features  -->
+            <div class="flex flex-col gap-[10px]">
+              <!-- feature 1 -->
+              <div class="flex gap-[10px] items-center">
+                <div>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20C15.5228 20 20 15.5228 20 10C19.9936 4.47982 15.5202 0.00642897 10 0Z"
+                      fill="#5243C2"
+                      fill-opacity="0.103693"
+                    />
+                    <path
+                      d="M15.7725 6.83331L10.0683 14.5741C9.93231 14.7546 9.72945 14.8729 9.50536 14.9024C9.28127 14.9318 9.05475 14.87 8.87668 14.7308L4.80334 11.4741C4.4439 11.1865 4.3857 10.6619 4.67334 10.3025C4.96099 9.94303 5.48557 9.88483 5.84501 10.1725L9.24168 12.89L14.4308 5.84748C14.601 5.59214 14.8977 5.45096 15.2032 5.48001C15.5087 5.50906 15.7734 5.70362 15.8924 5.98646C16.0114 6.26929 15.9653 6.59463 15.7725 6.83331Z"
+                      fill="#5243C2"
+                    />
+                  </svg>
+                </div>
+                <div class="text-[#848199] text-[15px] font-medium">
+                  All limited links
+                </div>
+              </div>
+              <!-- feature 2 -->
+              <div class="flex gap-[10px] items-center">
+                <div>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20C15.5228 20 20 15.5228 20 10C19.9936 4.47982 15.5202 0.00642897 10 0Z"
+                      fill="#5243C2"
+                      fill-opacity="0.103693"
+                    />
+                    <path
+                      d="M15.7725 6.83331L10.0683 14.5741C9.93231 14.7546 9.72945 14.8729 9.50536 14.9024C9.28127 14.9318 9.05475 14.87 8.87668 14.7308L4.80334 11.4741C4.4439 11.1865 4.3857 10.6619 4.67334 10.3025C4.96099 9.94303 5.48557 9.88483 5.84501 10.1725L9.24168 12.89L14.4308 5.84748C14.601 5.59214 14.8977 5.45096 15.2032 5.48001C15.5087 5.50906 15.7734 5.70362 15.8924 5.98646C16.0114 6.26929 15.9653 6.59463 15.7725 6.83331Z"
+                      fill="#5243C2"
+                    />
+                  </svg>
+                </div>
+                <div class="text-[#848199] text-[15px] font-medium">
+                  Own analytics platform
+                </div>
+              </div>
+              <!-- feature 3 -->
+              <div class="flex gap-[10px] items-center">
+                <div>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20C15.5228 20 20 15.5228 20 10C19.9936 4.47982 15.5202 0.00642897 10 0Z"
+                      fill="#5243C2"
+                      fill-opacity="0.103693"
+                    />
+                    <path
+                      d="M15.7725 6.83331L10.0683 14.5741C9.93231 14.7546 9.72945 14.8729 9.50536 14.9024C9.28127 14.9318 9.05475 14.87 8.87668 14.7308L4.80334 11.4741C4.4439 11.1865 4.3857 10.6619 4.67334 10.3025C4.96099 9.94303 5.48557 9.88483 5.84501 10.1725L9.24168 12.89L14.4308 5.84748C14.601 5.59214 14.8977 5.45096 15.2032 5.48001C15.5087 5.50906 15.7734 5.70362 15.8924 5.98646C16.0114 6.26929 15.9653 6.59463 15.7725 6.83331Z"
+                      fill="#5243C2"
+                    />
+                  </svg>
+                </div>
+                <div class="text-[#848199] text-[15px] font-medium">
+                  Chat support
+                </div>
+              </div>
+              <!-- feature 4 -->
+              <div class="flex gap-[10px] items-center">
+                <div>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20C15.5228 20 20 15.5228 20 10C19.9936 4.47982 15.5202 0.00642897 10 0Z"
+                      fill="#5243C2"
+                      fill-opacity="0.103693"
+                    />
+                    <path
+                      d="M15.7725 6.83331L10.0683 14.5741C9.93231 14.7546 9.72945 14.8729 9.50536 14.9024C9.28127 14.9318 9.05475 14.87 8.87668 14.7308L4.80334 11.4741C4.4439 11.1865 4.3857 10.6619 4.67334 10.3025C4.96099 9.94303 5.48557 9.88483 5.84501 10.1725L9.24168 12.89L14.4308 5.84748C14.601 5.59214 14.8977 5.45096 15.2032 5.48001C15.5087 5.50906 15.7734 5.70362 15.8924 5.98646C16.0114 6.26929 15.9653 6.59463 15.7725 6.83331Z"
+                      fill="#5243C2"
+                    />
+                  </svg>
+                </div>
+                <div class="text-[#848199] text-[15px] font-medium">
+                  Optimize hashtags
+                </div>
+              </div>
+              <!-- feature 4 -->
+              <div class="flex gap-[10px] items-center">
+                <div>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20C15.5228 20 20 15.5228 20 10C19.9936 4.47982 15.5202 0.00642897 10 0Z"
+                      fill="#5243C2"
+                      fill-opacity="0.103693"
+                    />
+                    <path
+                      d="M15.7725 6.83331L10.0683 14.5741C9.93231 14.7546 9.72945 14.8729 9.50536 14.9024C9.28127 14.9318 9.05475 14.87 8.87668 14.7308L4.80334 11.4741C4.4439 11.1865 4.3857 10.6619 4.67334 10.3025C4.96099 9.94303 5.48557 9.88483 5.84501 10.1725L9.24168 12.89L14.4308 5.84748C14.601 5.59214 14.8977 5.45096 15.2032 5.48001C15.5087 5.50906 15.7734 5.70362 15.8924 5.98646C16.0114 6.26929 15.9653 6.59463 15.7725 6.83331Z"
+                      fill="#5243C2"
+                    />
+                  </svg>
+                </div>
+                <div class="text-[#848199] text-[15px] font-medium">
+                  Unlimited users
+                </div>
+              </div>
+            </div>
+            <!-- button -->
+            <button
+              class="text-[#F496D1] bg-[#FDF0FA] font-bold text-[15px] rounded-[24px] py-[13px] w-full"
+            >
+              Choose plan
+            </button>
+          </div>
+          <!-- card 3  -->
+          <div
+            class="flex flex-col gap-[20px] w-[300px] relative top-[-80px] rounded-[26px] p-[20px] bg-[#5243C2]"
+          >
+            <div class="flex justify-end">
+              <div
+                class="text-[#F496D1] bg-[#4031B3] text-center rounded-[14px] text-[100] font-bold w-[150px] py-[5px] drop-shadow-[#4031B3]/50"
+              >
+                MOST POPULAR
+              </div>
+            </div>
+            <!-- price  -->
+            <div class="flex items-center gap-[6px]">
+              <div class="text-[36px] font-bold text-white">$100</div>
+              <div class="text-white text-[17px] font-medium">/month</div>
+            </div>
+            <!-- intro  -->
+            <div class="flex flex-col gap-[10px]">
+              <div class="text-white text-[28px] font-bold">Pro</div>
+              <div class="text-white text-[15px] font-medium">
+                For most businesses that want to otpimize web queries
+              </div>
+            </div>
+            <!-- features  -->
+            <div class="flex flex-col gap-[10px]">
+              <!-- feature 1 -->
+              <div class="flex gap-[10px] items-center">
+                <div>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      opacity="0.1"
+                      d="M10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20C15.5228 20 20 15.5228 20 10C19.9936 4.47982 15.5202 0.00642897 10 0Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M15.7725 6.83331L10.0683 14.5741C9.93228 14.7546 9.72942 14.8729 9.50533 14.9024C9.28124 14.9318 9.05472 14.87 8.87665 14.7308L4.80331 11.4741C4.44387 11.1865 4.38567 10.6619 4.67331 10.3025C4.96096 9.94303 5.48554 9.88483 5.84498 10.1725L9.24165 12.89L14.4308 5.84748C14.601 5.59214 14.8977 5.45096 15.2032 5.48001C15.5086 5.50906 15.7734 5.70362 15.8924 5.98646C16.0114 6.26929 15.9653 6.59463 15.7725 6.83331Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+                <div class="text-white text-[15px] font-medium">
+                  All limited links
+                </div>
+              </div>
+              <!-- feature 2 -->
+              <div class="flex gap-[10px] items-center">
+                <div>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      opacity="0.1"
+                      d="M10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20C15.5228 20 20 15.5228 20 10C19.9936 4.47982 15.5202 0.00642897 10 0Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M15.7725 6.83331L10.0683 14.5741C9.93228 14.7546 9.72942 14.8729 9.50533 14.9024C9.28124 14.9318 9.05472 14.87 8.87665 14.7308L4.80331 11.4741C4.44387 11.1865 4.38567 10.6619 4.67331 10.3025C4.96096 9.94303 5.48554 9.88483 5.84498 10.1725L9.24165 12.89L14.4308 5.84748C14.601 5.59214 14.8977 5.45096 15.2032 5.48001C15.5086 5.50906 15.7734 5.70362 15.8924 5.98646C16.0114 6.26929 15.9653 6.59463 15.7725 6.83331Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+                <div class="text-white text-[15px] font-medium">
+                  Own analytics platform
+                </div>
+              </div>
+              <!-- feature 3 -->
+              <div class="flex gap-[10px] items-center">
+                <div>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      opacity="0.1"
+                      d="M10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20C15.5228 20 20 15.5228 20 10C19.9936 4.47982 15.5202 0.00642897 10 0Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M15.7725 6.83331L10.0683 14.5741C9.93228 14.7546 9.72942 14.8729 9.50533 14.9024C9.28124 14.9318 9.05472 14.87 8.87665 14.7308L4.80331 11.4741C4.44387 11.1865 4.38567 10.6619 4.67331 10.3025C4.96096 9.94303 5.48554 9.88483 5.84498 10.1725L9.24165 12.89L14.4308 5.84748C14.601 5.59214 14.8977 5.45096 15.2032 5.48001C15.5086 5.50906 15.7734 5.70362 15.8924 5.98646C16.0114 6.26929 15.9653 6.59463 15.7725 6.83331Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+                <div class="text-white text-[15px] font-medium">
+                  Chat support
+                </div>
+              </div>
+              <!-- feature 4 -->
+              <div class="flex gap-[10px] items-center">
+                <div>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      opacity="0.1"
+                      d="M10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20C15.5228 20 20 15.5228 20 10C19.9936 4.47982 15.5202 0.00642897 10 0Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M15.7725 6.83331L10.0683 14.5741C9.93228 14.7546 9.72942 14.8729 9.50533 14.9024C9.28124 14.9318 9.05472 14.87 8.87665 14.7308L4.80331 11.4741C4.44387 11.1865 4.38567 10.6619 4.67331 10.3025C4.96096 9.94303 5.48554 9.88483 5.84498 10.1725L9.24165 12.89L14.4308 5.84748C14.601 5.59214 14.8977 5.45096 15.2032 5.48001C15.5086 5.50906 15.7734 5.70362 15.8924 5.98646C16.0114 6.26929 15.9653 6.59463 15.7725 6.83331Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+                <div class="text-white text-[15px] font-medium">
+                  Optimize hashtags
+                </div>
+              </div>
+              <!-- feature 4 -->
+              <div class="flex gap-[10px] items-center">
+                <div>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      opacity="0.1"
+                      d="M10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20C15.5228 20 20 15.5228 20 10C19.9936 4.47982 15.5202 0.00642897 10 0Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M15.7725 6.83331L10.0683 14.5741C9.93228 14.7546 9.72942 14.8729 9.50533 14.9024C9.28124 14.9318 9.05472 14.87 8.87665 14.7308L4.80331 11.4741C4.44387 11.1865 4.38567 10.6619 4.67331 10.3025C4.96096 9.94303 5.48554 9.88483 5.84498 10.1725L9.24165 12.89L14.4308 5.84748C14.601 5.59214 14.8977 5.45096 15.2032 5.48001C15.5086 5.50906 15.7734 5.70362 15.8924 5.98646C16.0114 6.26929 15.9653 6.59463 15.7725 6.83331Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+                <div class="text-[white] text-[15px] font-medium">
+                  Unlimited users
+                </div>
+              </div>
+            </div>
+            <!-- button -->
+            <button
+              class="text-[#5243C2] bg-[#F496D1] font-bold text-[15px] rounded-[24px] py-[13px] w-full"
+            >
+              Choose plan
+            </button>
+          </div>
+          <!-- card 4  -->
+          <div class="flex flex-col gap-[20px] w-[232px]">
+            <!-- price  -->
+            <div class="flex items-center gap-[6px]">
+              <div class="text-[36px] font-bold text-[#231D4F]">$200</div>
+              <div class="text-[#848199] text-[17px] font-medium">/month</div>
+            </div>
+            <!-- intro  -->
+            <div class="flex flex-col gap-[10px]">
+              <div class="text-[#231D4F] text-[28px] font-bold">Enterprise</div>
+              <div class="text-[#848199] text-[15px] font-medium">
+                For most businesses that want to otpimize web queries
+              </div>
+            </div>
+            <!-- features  -->
+            <div class="flex flex-col gap-[10px]">
+              <!-- feature 1 -->
+              <div class="flex gap-[10px] items-center">
+                <div>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20C15.5228 20 20 15.5228 20 10C19.9936 4.47982 15.5202 0.00642897 10 0Z"
+                      fill="#5243C2"
+                      fill-opacity="0.103693"
+                    />
+                    <path
+                      d="M15.7725 6.83331L10.0683 14.5741C9.93231 14.7546 9.72945 14.8729 9.50536 14.9024C9.28127 14.9318 9.05475 14.87 8.87668 14.7308L4.80334 11.4741C4.4439 11.1865 4.3857 10.6619 4.67334 10.3025C4.96099 9.94303 5.48557 9.88483 5.84501 10.1725L9.24168 12.89L14.4308 5.84748C14.601 5.59214 14.8977 5.45096 15.2032 5.48001C15.5087 5.50906 15.7734 5.70362 15.8924 5.98646C16.0114 6.26929 15.9653 6.59463 15.7725 6.83331Z"
+                      fill="#5243C2"
+                    />
+                  </svg>
+                </div>
+                <div class="text-[#848199] text-[15px] font-medium">
+                  All limited links
+                </div>
+              </div>
+              <!-- feature 2 -->
+              <div class="flex gap-[10px] items-center">
+                <div>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20C15.5228 20 20 15.5228 20 10C19.9936 4.47982 15.5202 0.00642897 10 0Z"
+                      fill="#5243C2"
+                      fill-opacity="0.103693"
+                    />
+                    <path
+                      d="M15.7725 6.83331L10.0683 14.5741C9.93231 14.7546 9.72945 14.8729 9.50536 14.9024C9.28127 14.9318 9.05475 14.87 8.87668 14.7308L4.80334 11.4741C4.4439 11.1865 4.3857 10.6619 4.67334 10.3025C4.96099 9.94303 5.48557 9.88483 5.84501 10.1725L9.24168 12.89L14.4308 5.84748C14.601 5.59214 14.8977 5.45096 15.2032 5.48001C15.5087 5.50906 15.7734 5.70362 15.8924 5.98646C16.0114 6.26929 15.9653 6.59463 15.7725 6.83331Z"
+                      fill="#5243C2"
+                    />
+                  </svg>
+                </div>
+                <div class="text-[#848199] text-[15px] font-medium">
+                  Own analytics platform
+                </div>
+              </div>
+              <!-- feature 3 -->
+              <div class="flex gap-[10px] items-center">
+                <div>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20C15.5228 20 20 15.5228 20 10C19.9936 4.47982 15.5202 0.00642897 10 0Z"
+                      fill="#5243C2"
+                      fill-opacity="0.103693"
+                    />
+                    <path
+                      d="M15.7725 6.83331L10.0683 14.5741C9.93231 14.7546 9.72945 14.8729 9.50536 14.9024C9.28127 14.9318 9.05475 14.87 8.87668 14.7308L4.80334 11.4741C4.4439 11.1865 4.3857 10.6619 4.67334 10.3025C4.96099 9.94303 5.48557 9.88483 5.84501 10.1725L9.24168 12.89L14.4308 5.84748C14.601 5.59214 14.8977 5.45096 15.2032 5.48001C15.5087 5.50906 15.7734 5.70362 15.8924 5.98646C16.0114 6.26929 15.9653 6.59463 15.7725 6.83331Z"
+                      fill="#5243C2"
+                    />
+                  </svg>
+                </div>
+                <div class="text-[#848199] text-[15px] font-medium">
+                  Chat support
+                </div>
+              </div>
+              <!-- feature 4 -->
+              <div class="flex gap-[10px] items-center">
+                <div>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20C15.5228 20 20 15.5228 20 10C19.9936 4.47982 15.5202 0.00642897 10 0Z"
+                      fill="#5243C2"
+                      fill-opacity="0.103693"
+                    />
+                    <path
+                      d="M15.7725 6.83331L10.0683 14.5741C9.93231 14.7546 9.72945 14.8729 9.50536 14.9024C9.28127 14.9318 9.05475 14.87 8.87668 14.7308L4.80334 11.4741C4.4439 11.1865 4.3857 10.6619 4.67334 10.3025C4.96099 9.94303 5.48557 9.88483 5.84501 10.1725L9.24168 12.89L14.4308 5.84748C14.601 5.59214 14.8977 5.45096 15.2032 5.48001C15.5087 5.50906 15.7734 5.70362 15.8924 5.98646C16.0114 6.26929 15.9653 6.59463 15.7725 6.83331Z"
+                      fill="#5243C2"
+                    />
+                  </svg>
+                </div>
+                <div class="text-[#848199] text-[15px] font-medium">
+                  Optimize hashtags
+                </div>
+              </div>
+              <!-- feature 4 -->
+              <div class="flex gap-[10px] items-center">
+                <div>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20C15.5228 20 20 15.5228 20 10C19.9936 4.47982 15.5202 0.00642897 10 0Z"
+                      fill="#5243C2"
+                      fill-opacity="0.103693"
+                    />
+                    <path
+                      d="M15.7725 6.83331L10.0683 14.5741C9.93231 14.7546 9.72945 14.8729 9.50536 14.9024C9.28127 14.9318 9.05475 14.87 8.87668 14.7308L4.80334 11.4741C4.4439 11.1865 4.3857 10.6619 4.67334 10.3025C4.96099 9.94303 5.48557 9.88483 5.84501 10.1725L9.24168 12.89L14.4308 5.84748C14.601 5.59214 14.8977 5.45096 15.2032 5.48001C15.5087 5.50906 15.7734 5.70362 15.8924 5.98646C16.0114 6.26929 15.9653 6.59463 15.7725 6.83331Z"
+                      fill="#5243C2"
+                    />
+                  </svg>
+                </div>
+                <div class="text-[#848199] text-[15px] font-medium">
+                  Unlimited users
+                </div>
+              </div>
+            </div>
+            <!-- button -->
+            <button
+              class="text-[#F496D1] bg-[#FDF0FA] font-bold text-[15px] rounded-[24px] py-[13px] w-full"
+            >
+              Choose plan
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
