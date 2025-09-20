@@ -20,7 +20,11 @@ A collection of **responsive authentication forms** built using **HTML + Tailwin
 
 ### ✅ Verify Code Page
 
-![Verify Code Screenshot](./images/verifycode-preview.png)
+![Verify Code Screenshot](./images/verify-code-preview.png)
+
+### 🔐 Set Password Page
+
+![Set Password Screenshot](./images/setpassword-preview.png)
 
 ---
 
@@ -45,10 +49,10 @@ A collection of **responsive authentication forms** built using **HTML + Tailwin
 ### Forgot Password Page
 
 - 📱 **Responsive Design** – mobile-friendly and desktop-ready.
-- 🎨 **TailwindCSS** – consistent design with login & registration pages.
+- 🎨 **TailwindCSS** – consistent design with other authentication pages.
 - 🔒 **Accessible Fields** – uses `<fieldset>` + `<legend>` and ARIA attributes.
 - ✅ **Form Validation Ready** – email input with `required` attribute.
-- 📧 **Simple UX** – allows users to enter their email to reset the password.
+- 📧 **Simple UX** – allows users to enter their email to reset their password.
 
 ### Verify Code Page
 
@@ -56,6 +60,14 @@ A collection of **responsive authentication forms** built using **HTML + Tailwin
 - 🎨 **TailwindCSS** – matches the style of other authentication pages.
 - 🔢 **Code Input Fields** – designed to enter OTP or verification code.
 - ✅ **Form Validation Ready** – ensures code input is entered before submission.
+
+### Set Password Page
+
+- 📱 **Responsive Design** – optimized for multiple screen sizes.
+- 🎨 **TailwindCSS** – consistent styling with login, registration, etc.
+- 🔒 **Accessible Fields** – includes password & confirm password fields.
+- 👁️ **Password Toggle** – show/hide functionality for new password & confirmation.
+- ✅ **Form Validation Ready** – required fields, matching passwords check (client-side or backend).
 
 ---
 
