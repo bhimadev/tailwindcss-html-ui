@@ -1,4 +1,4 @@
-# 🌟 TailwindCSS HTML UI – Login, Registration & Forgot Password Pages
+# 🌟 TailwindCSS HTML UI – Authentication Pages
 
 A collection of **responsive authentication forms** built using **HTML + Tailwind CSS**, designed with accessibility, modern UI, and responsiveness in mind.
 
@@ -17,6 +17,10 @@ A collection of **responsive authentication forms** built using **HTML + Tailwin
 ### 🔓 Forgot Password Page
 
 ![Forgot Password Screenshot](./images/forgot-preview.png)
+
+### ✅ Verify Code Page
+
+![Verify Code Screenshot](./images/verifycode-preview.png)
 
 ---
 
@@ -45,6 +49,13 @@ A collection of **responsive authentication forms** built using **HTML + Tailwin
 - 🔒 **Accessible Fields** – uses `<fieldset>` + `<legend>` and ARIA attributes.
 - ✅ **Form Validation Ready** – email input with `required` attribute.
 - 📧 **Simple UX** – allows users to enter their email to reset the password.
+
+### Verify Code Page
+
+- 📱 **Responsive Design** – works across all devices.
+- 🎨 **TailwindCSS** – matches the style of other authentication pages.
+- 🔢 **Code Input Fields** – designed to enter OTP or verification code.
+- ✅ **Form Validation Ready** – ensures code input is entered before submission.
 
 ---
 
