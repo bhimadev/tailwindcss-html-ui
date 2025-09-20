@@ -1,5 +1,9 @@
 # 🌟 TailwindCSS HTML UI Components
 
+A collection of ready-to-use **Tailwind CSS HTML UI Components**.
+
+---
+
 ## 📸 All Components Preview
 
 ### 🧭 UI – Directory 1
@@ -9,6 +13,10 @@
 ### 🎨 UI – Directory 2
 
 [![Preview 2](./2/images/screenshot.png)](./2/)
+
+### 🖌️ UI – Directory 3
+
+[![Preview 3](./3/images/register-preview.png)](./3/)
 
 ---
 
