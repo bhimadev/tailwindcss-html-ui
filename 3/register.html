@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Register Page</title>
+      <!-- Tailwind CSS via CDN -->
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script>
+         tailwind.config = {
+           theme: {
+             extend: {},
+             container: {
+               center: true,
+               padding: '1rem',
+               screens: {
+                 sm: '540px',
+                 md: '720px',
+                 lg: '960px',
+                 xl: '1140px',
+                 '2xl': '1320px',
+               },
+             },
+           },
+         }
+      </script>
+   <body>
+      <div class="container">
+         <div class="flex flex-col md:flex-row gap-[50px] items-start">
+            <div class="flex-1 hidden md:flex  items-center py-6 justify-center">
+               <img
+                  src="./images/register.svg"
+                  alt="Register Image"
+                  class="h-[calc(100vh-40px)] w-[100%]" />
+            </div>
+            <div class="flex flex-1 flex-col gap-[60px]">
+               <div class="flex justify-end">
+                  <img src="./images/logo.svg" alt="Logo" class="w-[214px] h-[53px]
+                     mt-[50px] cursor-pointer" />
+               </div>
+               <div class="flex flex-col gap-[48px] ">
+                  <div class="flex flex-col gap-[16px]">
+                     <div class="text-[40px] font-semibold text-[#313131]">Sign up</div>
+                     <div class="text-[#313131] text-[16px] ">Let’s get you all st up so you can access your personal account.</div>
+                  </div>
+                  <form>
+                     <div class="flex flex-col gap-[24px]">
+                        <div class="flex flex-col md:flex-row gap-[24px]">
+                           <fieldset  class="border border-[#79747E] rounded px-3 pt-1 pb-2 flex-1">
+                              <legend id="firstNameLabel" class="px-1 text-sm text-[#1C1B1F]">First Name</legend>
+                              <input
+                                 type="text"
+                                 class="block w-full border-0 focus:ring-0 focus:outline-none text-[#1C1B1F] pb-1"
+                                 placeholder="Enter your first name"
+                                 id="firstName"
+                                 aria-labelledby="firstNameLabel"
+                                 required
+                                 aria-required="true"
+                                 />
+                           </fieldset>
+                           <fieldset class="border border-[#79747E] rounded px-3 pt-1 pb-2 flex-1">
+                              <legend id="lastNameLabel"  class="px-1 text-sm text-[#1C1B1F]">Last Name</legend>
+                              <input
+                                 type="text"
+                                 class="block w-full border-0 focus:ring-0 focus:outline-none text-[#1C1B1F] pb-1"
+                                 placeholder="Enter your last name"
+                                 id="lastName"
+                                 aria-labelledby="lastNameLabel"
+                                 required
+                                 aria-required="true"
+                                 />
+                           </fieldset>
+                        </div>
+                        <div class="flex flex-col md:flex-row  gap-[24px]">
+                           <fieldset  class="border border-[#79747E] rounded px-3 pt-1 pb-2 flex-1">
+                              <legend id="emailLabel" class="px-1 text-sm text-[#1C1B1F]">Email </legend>
+                              <input
+                                 type="email"
+                                 class="block w-full border-0 focus:ring-0 focus:outline-none text-[#1C1B1F] pb-1"
+                                 placeholder="Enter your email"
+                                 id="email"
+                                 aria-labelledby="emailLabel"
+                                 required
+                                 aria-required="true"
+                                 />
+                           </fieldset>
+                           <fieldset class="border border-[#79747E] rounded px-3 pt-1 pb-2 flex-1">
+                              <legend id="phoneNumberLabel" class="px-1 text-sm text-[#1C1B1F]">Phone Number</legend>
+                              <input
+                                 type="tel"
+                                 class="block w-full border-0 focus:ring-0 focus:outline-none text-[#1C1B1F] pb-1"
+                                 placeholder="Enter your phone number"
+                                 id="phoneNumber"
+                                 aria-labelledby="phoneNumberLabel"
+                                 required
+                                 aria-required="true"
+                                 />
+                           </fieldset>
+                        </div>
+                        <fieldset class="relative border border-[#79747E] rounded px-3 pt-1 pb-2 flex-1">
+                           <legend id="passwordLabel"  class="px-1 text-sm text-[#1C1B1F]">Password</legend>
+                           <!-- Password input -->
+                           <input
+                              type="password"
+                              class="block w-full pr-8 border-0 focus:ring-0 focus:outline-none text-[#1C1B1F] pb-1"
+                              placeholder="Enter password"
+                              id="password"
+                              aria-labelledby="passwordLabel"
+                              required
+                              aria-required="true"
+                              />
+                           <!-- Toggle button -->
+                           <button
+                              type="button"
+                              id="togglePassword"
+                              aria-label="Show password"
+                              aria-pressed="false"
+                              class="absolute right-3 top-2 text-gray-500 hover:text-gray-700"
+                              >
+                              <!-- eye icon (heroicons) -->
+                              <svg
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 fill="none"
+                                 viewBox="0 0 24 24"
+                                 stroke-width="1.5"
+                                 stroke="currentColor"
+                                 class="w-5 h-5"
+                                 >
+                                 <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M2.036 12.322a1.012 1.012 0 010-.644C3.423 7.51 7.36 4.5 12 4.5c4.64 0 8.577 3.01 9.964 7.178.07.213.07.431 0 .644C20.577 16.49 16.64 19.5 12 19.5c-4.64 0-8.577-3.01-9.964-7.178z"
+                                    />
+                                 <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                                    />
+                              </svg>
+                           </button>
+                        </fieldset>
+                        <fieldset class="relative border border-[#79747E] rounded px-3 pt-1 pb-2 flex-1">
+                           <legend id="confirmPasswordLabel" class="px-1 text-sm text-[#1C1B1F]">Confirm Password</legend>
+                           <!-- Password input -->
+                           <input
+                              type="password"
+                              id="confirmPassword"
+                              aria-labelledby="confirmPasswordLabel"
+                              class="block w-full pr-8 border-0 focus:ring-0 focus:outline-none text-[#1C1B1F] pb-1"
+                              placeholder="Enter confirm password"
+                              required
+                              aria-required="true"
+                              />
+                           <!-- Toggle button -->
+                           <button
+                              type="button"
+                              id="toggleConfirmPassword"
+                              aria-label="Show confirm password"
+                              aria-pressed="false"
+                              class="absolute right-3 top-2 text-gray-500 hover:text-gray-700"
+                              >
+                              <!-- eye icon (heroicons) -->
+                              <svg
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 fill="none"
+                                 viewBox="0 0 24 24"
+                                 stroke-width="1.5"
+                                 stroke="currentColor"
+                                 class="w-5 h-5"
+                                 >
+                                 <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M2.036 12.322a1.012 1.012 0 010-.644C3.423 7.51 7.36 4.5 12 4.5c4.64 0 8.577 3.01 9.964 7.178.07.213.07.431 0 .644C20.577 16.49 16.64 19.5 12 19.5c-4.64 0-8.577-3.01-9.964-7.178z"
+                                    />
+                                 <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                                    />
+                              </svg>
+                           </button>
+                        </fieldset>
+                        <div class="flex gap-[8px]">
+                           <input type="checkbox" id="terms" aria-required="true" /> 
+                           <div id="termsText" class="text-[#313131]">I agree to all the <a class="text-[#FF8682]" href="">Terms</a> and <a class="text-[#FF8682]" href="">Privacy Policies</a></div>
+                        </div>
+                        <div class="flex flex-col gap-[16px] items-center">
+                           <button class="bg-[#515DEF] w-full rounded-[4px] text-white py-[10px] text-[14px] text-semibold">Create account</button>
+                           <div class="text-[14px] text-medium text=[#313131]">Already have an account? <a href="#" class="text-[#FF8682]">Login</a></div>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script>
+         function setupPasswordToggle(inputId, buttonId) {
+           const input = document.getElementById(inputId);
+           const button = document.getElementById(buttonId);
+         
+           button.addEventListener('click', () => {
+             const isPassword = input.getAttribute('type') === 'password';
+             input.setAttribute('type', isPassword ? 'text' : 'password');
+             button.setAttribute('aria-pressed', String(!isPassword));
+             button.setAttribute('aria-label', isPassword ? 'Hide password' : 'Show password');
+           });
+         }
+         
+         setupPasswordToggle('password', 'togglePassword');
+         setupPasswordToggle('confirmPassword', 'toggleConfirmPassword');
+      </script>
+   </body>
+</html>
