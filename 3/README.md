@@ -20,7 +20,7 @@ A collection of **responsive authentication forms** built using **HTML + Tailwin
 
 ### ✅ Verify Code Page
 
-![Verify Code Screenshot](./images/verify-code-preview.png)
+![Verify Code Screenshot](./images/verifycode-preview.png)
 
 ### 🔐 Set Password Page
 
