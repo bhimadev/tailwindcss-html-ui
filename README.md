@@ -38,3 +38,14 @@ If you find this project helpful, consider supporting it:
 </a>
 
 👉 Scan the QR code above
+
+## 💼 Hire Us
+
+Looking for custom **Tailwind CSS HTML UI development** or **frontend solutions**?  
+We provide professional UI development and design services for your projects.
+
+### Contact Us
+
+- **Email:** [bhima.dev.hp@gmail.com](mailto:bhima.dev.hp@gmail.com)
+
+We’ll help you create responsive, modern, and visually appealing UI components for your projects!
